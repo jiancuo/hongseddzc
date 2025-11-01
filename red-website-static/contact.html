@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>联系我们 - 红色记忆·青春使命</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="images/logo.png" alt="红色记忆Logo" height="40">
+                <span>红色记忆·青春使命</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="about.html">关于我们</a></li>
+                <li><a href="heroes.html">红色人物</a></li>
+                <li><a href="stories.html">红色故事</a></li>
+                <li><a href="gallery.html">红色图库</a></li>
+                <li><a href="contact.html" class="active">联系我们</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <section class="page-header">
+            <div class="container">
+                <h1>联系我们</h1>
+                <p>欢迎提出宝贵意见和建议</p>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h2>团队信息</h2>
+                        <div class="info-card">
+                            <h3>红色传承团队</h3>
+                            <p><strong>学校：</strong>甘肃农业大学</p>
+                            <p><strong>学院：</strong>信息科学技术学院</p>
+                            <p><strong>比赛：</strong>第四届红色网页设计大赛</p>
+                            <p><strong>邮箱：</strong>2956276440@qq.com</p>
+                            <p><strong>地址：</strong>甘肃省兰州市安宁区营门村1号</p>
+                        </div>
+
+                        <div class="team-contact">
+                            <h3>团队成员</h3>
+                            <div class="team-list">
+                                <div class="team-member-contact">
+                                    <h4>马飒飒</h4>
+                                    <p>项目负责人 & 前端开发</p>
+                                    <p>📧 2956276440@qq.com</p>
+                                </div>
+                                <div class="team-member-contact">
+                                    <h4>王馨怡</h4>
+                                    <p>技术开发 & 架构设计</p>
+                                    <p>📧 2306414466@qq.com</p>
+                                </div>
+                                <div class="team-member-contact">
+                                    <h4>王宁霞</h4>
+                                    <p>内容策划 & 资料整理</p>
+                                    <p>📧 1739831805@qq.com</p>
+                                </div>
+                                <div class="team-member-contact">
+                                    <h4>杨世美</h4>
+                                    <p>视觉设计 & 用户体验</p>
+                                    <p>📧 2723891955@qq.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container">
+                        <h2>留言反馈</h2>
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-group">
+                                <label for="name">姓名 *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">邮箱 *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">主题 *</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">请选择主题</option>
+                                    <option value="suggestion">网站建议</option>
+                                    <option value="content">内容反馈</option>
+                                    <option value="cooperation">合作咨询</option>
+                                    <option value="other">其他</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">留言内容 *</label>
+                                <textarea id="message" name="message" rows="6" required placeholder="请输入您的留言内容..."></textarea>
+                            </div>
+
+                            <button type="submit" class="btn-primary">提交留言</button>
+                        </form>
+
+                        <div class="form-success" id="successMessage" style="display: none;">
+                            <div class="success-icon">✓</div>
+                            <h3>感谢您的留言！</h3>
+                            <p>我们已经收到您的消息，会尽快回复您。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>红色记忆·青春使命</h3>
+                    <p>传承红色文化，担当时代使命</p>
+                </div>
+                <div class="footer-section">
+                    <h4>快速链接</h4>
+                    <ul>
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="about.html">关于我们</a></li>
+                        <li><a href="stories.html">红色故事</a></li>
+                        <li><a href="contact.html">联系我们</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>联系我们</h4>
+                    <p>邮箱：2956276440@qq.com</p>
+                    <p>甘肃农业大学信息科学技术学院</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 甘肃农业大学第四届红色网页设计大赛 - 红色传承团队 | 版权所有</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

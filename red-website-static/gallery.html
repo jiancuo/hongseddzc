@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>红色图库 - 红色记忆·青春使命</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="images/logo.png" alt="红色记忆Logo" height="40">
+                <span>红色记忆·青春使命</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="about.html">关于我们</a></li>
+                <li><a href="heroes.html">红色人物</a></li>
+                <li><a href="stories.html">红色故事</a></li>
+                <li><a href="gallery.html" class="active">红色图库</a></li>
+                <li><a href="contact.html">联系我们</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <section class="page-header">
+            <div class="container">
+                <h1>红色图库</h1>
+                <p>革命历史影像资料</p>
+            </div>
+        </section>
+
+        <section class="gallery-section">
+            <div class="container">
+                <div class="gallery-filters">
+                    <button class="filter-btn active" data-filter="all">全部</button>
+                    <button class="filter-btn" data-filter="site">革命遗址</button>
+                    <button class="filter-btn" data-filter="relic">革命文物</button>
+                    <button class="filter-btn" data-filter="document">历史文献</button>
+                </div>
+
+                <div class="gallery-grid">
+                    <div class="gallery-item" data-category="site">
+                        <img src="images/gallery/photo1.jpg" alt="会宁会师楼">
+                        <div class="gallery-caption">
+                            <h4>会宁会师楼</h4>
+                            <p>红军三大主力会师地点，中国革命的重要历史遗址</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="site">
+                        <img src="images/gallery/photo2.jpg" alt="南梁革命纪念馆">
+                        <div class="gallery-caption">
+                            <h4>南梁革命纪念馆</h4>
+                            <p>陕甘边革命根据地的重要纪念场馆</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="relic">
+                        <img src="images/gallery/photo3.jpg" alt="红军军装">
+                        <div class="gallery-caption">
+                            <h4>红军军装</h4>
+                            <p>革命时期红军战士穿着的军装实物</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="relic">
+                        <img src="images/gallery/photo4.jpg" alt="革命武器">
+                        <div class="gallery-caption">
+                            <h4>革命武器</h4>
+                            <p>红军使用过的武器装备</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="document">
+                        <img src="images/gallery/photo5.jpg" alt="革命文献">
+                        <div class="gallery-caption">
+                            <h4>革命文献</h4>
+                            <p>珍贵的历史文件和宣传材料</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="document">
+                        <img src="images/gallery/photo6.jpg" alt="历史照片">
+                        <div class="gallery-caption">
+                            <h4>历史照片</h4>
+                            <p>记录革命历程的珍贵影像</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-modal" id="imageModal">
+                    <div class="modal-content">
+                        <span class="close-modal">&times;</span>
+                        <img id="modalImage" src="" alt="">
+                        <div class="modal-caption">
+                            <h3 id="modalTitle"></h3>
+                            <p id="modalDescription"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>红色记忆·青春使命</h3>
+                    <p>传承红色文化，担当时代使命</p>
+                </div>
+                <div class="footer-section">
+                    <h4>快速链接</h4>
+                    <ul>
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="about.html">关于我们</a></li>
+                        <li><a href="heroes.html">红色人物</a></li>
+                        <li><a href="gallery.html">红色图库</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>联系我们</h4>
+                    <p>邮箱：2956276440@qq.com</p>
+                    <p>甘肃农业大学信息科学技术学院</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 甘肃农业大学第四届红色网页设计大赛 - 对党忠诚队 | 版权所有</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
